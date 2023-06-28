@@ -1,1 +1,99 @@
 <!DOCTYPE html>
+<html>
+    <body>
+        <style>
+            table,th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th,td {
+                padding: 10px
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Control Type</th>
+                <th>Data</th>
+                <th>Control</th>
+            </tr>
+            <tr>
+                <td>Text box</td>
+                <td>Name:</td>
+                <td>
+                    <form>
+                        <input type="text" name="Enter name" value="Enter name">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>Password:</td>
+                <td>
+                    <form><input></form>
+                </td>
+            </tr>
+            <tr>
+                <td>Text area</td>
+                <td>Address:</td>
+                <td>
+                    <textarea name="message" rows="3" cols="40">Enter address</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Drop down list</td>
+                <td>Area:</td>
+                <td>
+                    <select name="Center">
+                        <option value="Center">Center</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check box</td>
+                <td>Hobbies:</td>
+                <td>
+                    <form>
+                        <input type="checkbox" name="Hobbies" value="Sport">Sport<br/>
+                        <input type="checkbox" name="Hobbies" value="Reading">Reading<br/>
+                        <input type="checkbox" name="Hobbies" value="T.V.">T.V.<br/>
+                        <input type="checkbox" name="Hobbies" value="Internet">Internet
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <td>Radio Buttons</td>
+            <td>Gender:</td>
+            </td>
+            <td>
+                <form>
+                    <fieldset>
+                        <legend>Gender Selection</legend>
+                    <input type="radio" name="gender" value="Male" checked/>Male<br/>
+                    <input type="radio" name="gender" value="Female" checked/>Female
+                </fieldset>
+                </form>
+            </td>
+            </tr>
+            <tr>
+                <td>File upload</td>
+                <td>Your image:</td>
+                <td>
+                    <form>
+                    <input type="Choose File" value="Choose File"/>No file chosen
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Buttons</td>
+                <td>Actions:</td>
+                <td>
+                <form>
+                    <input type="Submit" value="Submit"/>&nbsp;&nbsp;&nbsp;<input type="Reset" value="Reset"/>&nbsp;&nbsp;&nbsp;<input type="button" value="Button"/>
+                </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
